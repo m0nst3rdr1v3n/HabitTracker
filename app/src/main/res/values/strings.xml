@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Habit Tracker</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Label for overflow menu option that inserts fake habit data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+
+    <!-- Label for name information in the editor [CHAR LIMIT=30] -->
+    <string name="category_name">Name</string>
+
+    <!-- Label for description information in the editor [CHAR LIMIT=30] -->
+    <string name="category_description">Description</string>
+
+    <!-- Label for frequency information in the editor [CHAR LIMIT=30] -->
+    <string name="category_frequency">Frequency</string>
+
+    <!-- Label for dropdown menu option if the frequency is daily [CHAR LIMIT=20] -->
+    <string name="frequency_daily">Daily</string>
+
+    <!-- Label for dropdown menu option if the frequency is weekly [CHAR LIMIT=20] -->
+    <string name="frequency_weekly">Weekly</string>
+
+    <!-- Label for dropdown menu option if the frequency is bi-weekly [CHAR LIMIT=20] -->
+    <string name="frequency_biweekly">Bi-Weekly</string>
+
+    !-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">New Habit</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_habit_name">Habit Name</string>
+
+    <!-- Text hint for description field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_habit_description">Habit Description</string>
+
+    <!-- Title for the activity to add a new habit [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_habit">Add a Habit</string>
+
+    <!-- Label for editor menu option to save habit and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+
+</resources>
