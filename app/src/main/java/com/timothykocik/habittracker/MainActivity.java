@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         displayDatabaseInfo();
     }
 
-    private void displayDatabaseInfo() {
+    private Cursor displayDatabaseInfo() {
         //Create or open a database to read
         SQLiteDatabase db = mDbHelper.getReadableDatabase();
 
@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
         } finally {
             cursor.close();
         }
-    }
+    return cursor; }
 
     private void insertHabit() {
         //Gets the database in write mode
